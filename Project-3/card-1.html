@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: #4158D0;
+            background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 360px;
+            height: 500px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* gap: 30px; */
+        }
+       .card img{
+            height: 55%;
+            padding: 20px;
+            /* width: 100px; */
+            /* border-radius: 10px; */
+       }
+        .card h2{
+            font-weight: bold;
+            font-size: 1.5rem;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .card p{
+            font-size: 0.8rem;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="card">
+        <img src="card.png" alt="img">
+        <h2>Improve your front and skills by devloping Projects</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam,
+             dignissimos? Corporis minus illum perspiciatis? Neque omnis delectus nesciunt, temporibus ab cupiditate
+             fuga porro mollitia ipsa impedit, repellendus itaque minima laboriosam.</p>
+       </div>
+    </div>
+    
+</body>
+</html>
