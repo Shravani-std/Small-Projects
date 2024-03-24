@@ -5,7 +5,8 @@ const scroll = new LocomotiveScroll({
 // var a = document.querySelector("#elem-1")
 // console.log(a)
 
-var elemC = document.querySelector("#row-container")
+function page6Animation(){
+    var elemC = document.querySelector("#row-container")
 var fixed = document.querySelector("#fixed-image")
 elemC.addEventListener("mouseenter",function(){
     // alert("hoo")
@@ -23,3 +24,18 @@ elems.forEach(function(e){
         fixed.style.backgroundImage = `url(${image})` 
     })
 })
+}
+function swiperAnimation(){
+      var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 4,
+          spaceBetween: 50,
+          centeredSlides: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });  
+
+  }
+   swiperAnimation()  
+   page6Animation()

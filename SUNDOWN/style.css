@@ -349,7 +349,7 @@ nav{
 #sent{
     
     font-family: Neuehaasdisplay mediu, sans-serif;
-   
+    
 }
 #page-4{
     height: 110vh;
@@ -427,20 +427,113 @@ nav{
     width: 100%;
     /* background-color: #EFEAE3; */
 }
+#page-6{
+    height: 80vh;
+    width: 100%;
+    background-color: #EFEAE3;
+    padding: 10vw 2vw;
+    font-family: Neuehaasdisplay mediu, sans-serif;
+}
+.ttl{
+    height: 15px;
+    width: 100%;
+    /* margin-left: 40%; */
+    /* margin-bottom: 5%; 
+     margin-top: 4%; */
+     background-color: #EFEAE3;
+    }
+ 
+    .ttl p{
+        margin-left: 40%;
+        
+        font-family: Neuehaasdisplay mediu, sans-serif;
+    
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    padding:0 2vw ;
+    width: 30%;
+    border-left: 1px solid #aba3a3;
+  }
+.imgswiper img{
+    height: 70px;
+    width: 80%;
+    top: 0;
+    /* padding: 2vw; */
+    display: flex;
+    align-items: flex-start;
+}
+.contentswiper p{
+    font-size: 14px;
+    margin-top: 18px;
+}
 #footer{
     position: fixed;
     z-index: 9;
-    height: 100vh;
+    height: 105vh;
     width: 100%;
     background-color: #0B0500;
     color: #EFEAE3;
     bottom: 0;
     font-family: Neuehaasdisplay mediu, sans-serif;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end; 
     flex-direction: column;
+    padding: 1vw 2vw;
 }
 #footer h1{
-    font-size: 15vw;
+    font-size: 21vw;
 }
+#footer-div{
+    height: 20vh;
+    width: 100%;
+    /* background-color: #FE320A; */
+    padding-left: 3rem;
+    padding-right: 4.3rem;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+#footer-bottom{
+    border-top: 1px solid #dadada;
+    font-family: Neuehaasdisplay mediu, sans-serif;
+    height: 10vh;
+    width: 100% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#footer-bottom a{
+    color: #D7D2CB;
+    text-decoration: none;
+}
+#div-1{
+    height: 100%;
+    width: 80px;
+    font-size: 3vw;
+    color: #D7D2CB;
+    text-decoration: none;
+    font-family: Neuehaasdisplay mediu, sans-serif;
+    font-weight: bold;
+    
+}
+#div-2{
+    height: 100%;
+    width: 30%;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Neuehaasdisplay mediu, sans-serif;
+}
+#div-form{
+    border: none;
+    background-color:none;
+    font-family: Neuehaasdisplay mediu, sans-serif;
+    
+}
+
