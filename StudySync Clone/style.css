@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght0100;200;400;500;600;700&display=swap');
+@font-face {
+    font-family: 'static';
+    src: url('Oswald-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Now you can use 'MyCustomFont' in your styles */
+  .custom-font {
+    font-family: 'static', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+:root{
+    --primary-color: #6366f1;
+    --accent-color: #3f83f8;
+    --text-color: #333333;
+    --link-color: #2563eb;
+    --background-color: #ffffff;
+    --light-gray: #f0f0f0;
+    --gray: #808080;
+    --dark-gray: #555;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter',sans-serif;
+    text-decoration: none;
+}
+.main{
+    /* background-color: #4144f1; */
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.body{
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+.main-video{
+    position: absolute;
+    /* bottom: 0%; */
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    /* min-height: 100%;
+    min-width: 100% ; */
+    object-fit: cover;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.header-content{
+    display: flex;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+    gap: 800px;
+    width: 100%;
+    padding: 2rem;
+    position: relative;
+    background: rgba(0,0,0,0); /*transparent*/
+    z-index: 1;
+}
+.logo{
+    display: flex;
+    align-items: center;    
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    text-decoration: none;
+    /* gap: 0.225rem; */
+}
+.logo-ico{
+    height: 2.875rem;
+    width: 2.938rem;
+
+}
+.logo-txt{
+    font-size: 1.8rem;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-link
+{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+    transform: color 0.1s;
+    align-items: center;
+}
+.nav-link:hover{
+    color: var(--link-color);
+}
+@media screen and (min-width: 768px) {
+    .navbar{
+        display: flex;
+    }
+    
+}
+/* .contact-btn{
+    display: none;
+    border: none;
+    border-radius: 0.375rem;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    transition: all 0.1s;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.contact-btn:hover{
+    background-color: #4144f1;
+}
+@media screen and (min-width: 760px) {
+    .contact-btn{
+        display: flex;
+    }
+    
+} */
+.nav-btn{
+        display: flex;
+        border: none;
+        border-radius: 0.375rem;
+        font-size: 1rem;
+        font-weight: 600;
+        transform: all 0.1s;
+        background: (0,0,0,0);
+        /* padding: 0.5rem 0.9rem; */
+        height: 20px;
+        width: 20px;
+        /* right: 0%; */
+        /* gap: 0%; */
+}
+/* .btn-hami{
+    display: flex;
+} */
+ /* @media screen and (max-width: 760px) {
+        .menu-btn{
+            display: block;
+        }
+} */
+/* .menu-ico{
+    height: 100%;
+} */
+
+.oswald-unique1 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Example weight */
+    font-style: normal;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    padding: 0px 100px;
+    flex-direction: column;
+    line-height: 1;
+    /* margin-top: 50px; */
+  }
+  
+  .title {
+    font-family: 'static', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 80px;
+    /* font-weight: bold;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal; */
+    /* margin-top: -50px; */
+    align-items: center;
+    display: flex;
+    color: #FFFFFF;
+    /* line-height: 1; */
+  }
+  
+.btn-container{
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    cursor: pointer;
+    /* font-size: 50px; */
+    font-size: 19px;
+    font-weight: 10;
+    border: none;
+    gap: 80px;
+    padding: 2px 10px;
+    margin-top: 30px;
+}
+.btn-1{
+    border-radius: 20px;
+    background-color: #FDB913;
+    color: #FEECF0;
+    padding: 10px 12px;
+}
+.btn-2{
+    background-color: #FDB913;
+    color: #FEECF0;
+    border-radius: 20px;
+    padding: 10px 12px;
+}
+.btn-3{
+    background-color: #FDB913;
+    color: #FEECF0;
+    border-radius: 20px;
+    padding: 10px 12px;
+}
